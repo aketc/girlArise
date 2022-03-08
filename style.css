@@ -19,6 +19,7 @@
 .contact .content {
   max-width: 800px;
   text-align: center;
+  margin-left: -800px;
 }
 .contact .content h2 {
   font-size: 36px;
@@ -143,3 +144,15 @@
   }
 }
 
+.social {
+    list-style: none;
+    display: flex;
+}
+
+.social li {
+    margin-left: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
